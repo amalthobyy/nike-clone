@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 5;
+}
+.header1{
+    background:var(--podium-cds-color-white);
+    width: 100%;
+    height: 38px;
+   
+
+}
+body{
+    margin: 0;
+    background-color: rgb(245, 244, 244);
+}
+.logo1 img{
+    margin-top: 7px;
+    width: 20px;
+    margin-left: 45px;
+}
+.header1 p{
+    float:right;
+    margin: 15px;
+padding-right: 10px;
+font-size: 14px;
+font-weight:500;
+font-family:"Helvetica Now Text",Helvetica,Arial,sans-serif;
+position: relative;
+    
+
+}
+.logo img{
+    margin-top: 19px;
+    width: 65px;
+    margin-left: 33px;
+}
+.navbar{
+    background: #FFFFFF;
+    width: 100%;
+    height: 58px;
+    padding-top: 0%;
+  
+}
+
+
+.navbar-right img{
+    margin-top: 10px;
+    width: 35px;
+    margin-left: 3px;
+    margin-right:  10px;
+    padding-left: 5px;
+   
+
+}
+.navbar{
+    
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 6px 6%; */
+  
+    top: 0;
+    z-index:100;
+    position: sticky;
+   
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.like img{
+    width: 20px;
+    
+
+}
+.cart img{
+    width: 24px;
+
+}
+.navbar-center ul li {
+    display:inline-block;
+    list-style: none;
+    margin: 5px 5px;
+    font-family: "Helvetica Now Text Medium",Helvetica,Arial,sans-serif;
+    padding-right: 10px;
+    font-weight: 550;
+    align-items: center;
+    
+
+}
+.search-box{
+    background: #f5f5f5;
+    width: 140px;
+    border-radius:40px ;
+    display: flex;
+    align-items: center;
+    padding:0 15px;
+    
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+.search-box img{
+    width: 18px;
+    margin-bottom: 12px;
+
+}
+.search-box input{
+    width: 100%;
+    background:transparent;
+    padding: 13px;
+    outline: none;
+    border: 0;
+}
+    /* __________________navbrr and  header over___________________ */
+
+
+    .banner{
+        padding-top:7px ;
+        align-items: center;
+    }
+
+    .banner span{
+        padding-left: 32%;
+        font-size: larger;
+        
+        font-family:"Helvetica Now Text",Helvetica,Arial,sans-serif;
+        color: #111;
+    }
+    .banner p {
+        padding-top: 3px;
+        padding-left: 32%;
+        font-size: smaller;
+        font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+        size: 50px;
+      
+    }
+    .banner a{
+        padding-top: 3px;
+        padding-left: 45%;
+        font-size:smaller;
+        font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+       
+    }
+    
+
+/* ____________________top banner over-------------- */
+
+.main-content img{
+    width: 90%;
+   margin-top: 5px;
+   padding-left: 5%;
+   
+}
+.main-content{
+    background: #FFFFFF;
+    width: 100%;
+    
+    padding-top: 0%;
+/* display: flex; */
+align-items: center;
+position: sticky;
+z-index: 100;
+}
+
+.sub-content p{
+    padding-top: 50px;
+        padding-left: 47%;
+        font-size:medium;
+
+    font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+}
+.sub-content h3{
+    padding-left: 25%;
+    font-weight: 700;
+    font-size:xx-large;
+    font-size: 60px;
+    font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+    
+    
+
+  
+}
+
+.sub-content span{
+    padding-left:27% ;
+    padding-top: 10px;
+    font-size: small;
+    font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+
+
+}
+.sub-content a{
+    padding-left:37% ;
+    font-size: small;
+    font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+    
+    /* height: auto; */
+
+}
+
+
+.shop button{
+width: 50px;
+height: 33px;
+ background-color: #111;
+ color: #FFFFFF;
+ border-radius: 40px;
+ font-size: 15px;
+ display: inline-block;
+ margin: 10px;
+ margin-top: 5px;
+ 
+   
+
+}
+
+
+ .Learn-more button{
+    width: 100px;
+height: 33px;
+    font-size: 15px;
+    background-color: #111;
+    color: #FFFFFF;
+    border-radius: 25px;
+   display: inline-block;
+   
+   margin-top: 5px;
+
+    } 
+    .button {
+        display:flex ;
+        padding-left: 43%;
+
+    }
+    /* ---------------------------------------------------- */
+    .main-content2 img{
+        width: 90%;
+       margin-top: 5px;
+       padding-left: 5%;
+       
+    }
+    .main-content2{
+        background: #FFFFFF;
+        width: 100%;
+        
+        padding-top: 0%;
+    /* display: flex; */
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    }
+    
+    .sub-content2 p{
+        padding-top: 50px;
+            padding-left: 47%;
+            font-size:medium;
+    
+        font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+    }
+    .sub-content2 h3{
+        padding-left: 32%;
+        font-weight: 700;
+        font-size:xx-large;
+        font-size: 60px;
+        font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+        
+        
+    
+      
+    }
+    
+    .sub-content2 span{
+        padding-left:37% ;
+        padding-top: 10px;
+        font-size: small;
+        font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+    
+    
+    }
+    .sub-content2 a{
+        padding-left:34% ;
+        font-size: small;
+        font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+        
+        /* height: auto; */
+    
+    }
+    
+    
+    .shop2 button{
+    width: 50px;
+    height: 33px;
+     background-color: #111;
+     color: #FFFFFF;
+     border-radius: 40px;
+     font-size: 15px;
+     display: inline-block;
+     margin: 10px;
+     margin-top: 5px;
+     margin-bottom: 50px
+     
+       
+    
+    }
+    
+        .button2 {
+            display:flex ;
+            padding-left: 50%;
+    
+        }
+
+       /* -----------------------------MAIN OVER---------------------------------------- */
+
+.footer-right{
+   
+    
+    background:#111111;
+    width: 100%;
+    height: 200px;
+   
+  
+}
+.logo7 img{
+    margin-top: 10px;
+    width: 65px;
+    margin-left: 5px;
+}
+.copyright{
+    margin-left: 5px;
+
+}
+.logo7 p{
+    color: #FFFFFF;
+    font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+   
+}
+
+.centerf{
+    padding: 15px 25px;
+    text-align: center;
+
+}
+.logo7 span{
+    
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    color: #FFFFFF;
+    margin-left: 180px;
+    margin-bottom: 2px;
+    font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+    margin-top: 90px;
+}
+
+
